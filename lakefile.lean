@@ -1,15 +1,15 @@
 import Lake
 open Lake DSL
 
-package greeting {
+package «greeting» {
   -- add package configuration options here
 }
 
-lean_lib Greeting {
+lean_lib «Greeting» {
   -- add library configuration options here
 }
 
-@[defaultTarget]
-lean_exe greeting {
+@[default_target]
+lean_exe «greeting» {
   root := `Main
 }
